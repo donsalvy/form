@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registeration form</title>
+</head>
+<body>
+    <div class="container">
+        <div class="nav-wrapper">
+            <div class="left-side">
+                <div class="nav-link-wrapper">
+                    <a href="test.html">home</a>
+                </div>
+                <div class="nav-link-wrapper">
+                    <a href="form.html">Register now</a>
+                </div>
+                <div class="nav-link-wrapper">
+                    <a href="contact.html"> contact me</a>
+                </div>
+            </div>
+        </div>
+    <form action="/signup" method="post"> 
+       <p>
+        <label> Title</label>
+        <label>
+            <input type="radio" name="title" value="mr">Mr
+        </label>
+        <label>
+            <input type="radio" name="title" value="mrs">mrs
+        </label>
+        <label>
+            <input type="radio" name="title" value="miss"> miss
+        </label>
+        <p>
+            <label> First name</label>
+            <input type="text" name="firstname" placeholder="salvation">
+        </p>
+        <p>
+            <label> other name</label>
+            <input type="text" name="othername" placeholder="okafor">
+        </p>
+        <p>
+            <label> Email</label>
+            <input type="email" name="email" placeholder="jhonsnow@mail.com" required>
+        </p>
+        <p>
+            <label> Password </label>
+            <input type="password" name="password">
+        </p>
+        <p>
+            <label for=""> Date</label>
+            <input type="date" name="date">
+        </p>
+        <p>
+            <label for=""> Gender</label>
+            <select name="" id="">
+                <option value="dfault"></option>
+                <option value="defau">Male</option>
+                <option value="">Female</option>
+            </select>
+        </p>
+        <p>
+            <label> Phone</label>
+            <input type="tel" name="phone" placeholder="23450689678">
+        </p>
+        <p>
+            <label> Country</label>
+            <select>
+                <option>united states</option>
+                <option>united Kingdom</option>
+                <option>Ghana</option>
+                <option>Nigeria</option>
+                <option>Togo</option>
+                <option>Egypt</option>
+                <option>Canada</option>
+                <option>Italy</option>
+                <option>Ireland</option>
+                <option>Cyprus</option>
+            </select>
+        </p>
+        <p>
+        <label>
+            <input type="checkbox" value="terms"> I agree to the <a href="/terms"> terms and conditions</a>
+        </label>
+        </p>
+        <p>
+            <button> Sign up</button>
+            <button type="reset"> reset form</button>
+        </p>
+       </p> 
+    </form>
+</body>
+</html>
